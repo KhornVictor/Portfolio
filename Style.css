@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+nav:hover div{
+    padding: 20px 20px 20px 20px;
+    transition: 500ms;
+    
+}
+
+nav div{
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav div:hover {
+    padding: 20px 25px 20px 25px;
+    transition: 500ms;
+    background-color: rgb(35, 35, 35);
+}
+
+nav div:active {
+    padding: 20px 25px 20px 25px;
+    transition: 500ms;
+    background-color: rgb(65, 65, 65);
+}
+
+nav div a {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.Header{
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px 30px 0px;
+}
+
+.Header .Information{
+    width: 100%;
+}
+
+.Header .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.Header .profile img:hover{
+    transition: 200ms;
+    width: 105px;
+    height: 105px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.Header .profile{
+    margin: 0px 0px 30px 0px;
+}
+
+.Header div{
+    height: 100%;
+    text-align: center;
+}
+
+.Header div h1{
+    margin: 0px 0px 30px 0px;
+}
+
+.container div:hover h2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    transition: 200ms;
+}
+
+.container div{
+    width: 94%;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 0px 20px 0px;
+}
+th{
+    background-color: rgb(234, 234, 234);
+}
+
+tr,td{
+    padding-left: 10px;
+}
+
+table,th,tr,td{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+
+#form div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+form fieldset{
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+form fieldset input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+form fieldset textarea{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}

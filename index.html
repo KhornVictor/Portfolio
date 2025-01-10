@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CV</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!--Nativigation bar-->
+    <nav>
+        <div><a href="#Professional_Summary">Professional Summary</a></div>
+        <div><a href="#Work_Experience">Work Experience</a></div>
+        <div><a href="#Education">Education</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#project">Projects</a></div>
+        <div><a href="#Languages">Languages</a></div>
+        <div><a href="#reference">References</a></div>
+        <div><a href="#form">Contact Me</a></div>
+    </nav>
+
+    <!--Header-->
+    <div class="Header">
+        <div class="profile">
+            <img src="Picture/IMG_20210606_193206.jpg" alt="profile" title="profile">
+        </div>
+        <div class="Information">
+            <h1>VICTOR KHORN</h1>
+            <P>Email: victorkhornkh@gmail.com | Phone: +855 81 323 442</P>
+            <p>Address: 123 Main Street, City, Phnom Penh</p>
+        </div>
+        
+        
+    </div>
+
+    <div class = "container">
+
+        <!--Professional Summary-->
+        <div id = "Professional_Summary">
+            <h2>Professional Summary</h2>
+            <p>A high motivated student with over 2 years of experince in website development. Skilled in full-stack development, team collaboration, and project management.</p>
+        </div>
+        
+        <!--Work Experince-->
+        <div id = "Work_Experience">
+            <h2 >Work Experince</h2>
+                <h3>Developent Intern</h3>
+                    <h4>Glean Asia</h4>
+                    <ul>
+                        <li>Developed scalable web applications using Liferay CMS.</li>
+                        <li>Led a team of 4 developers to successfully deliver projects on time.</li>
+                        <li>Maintained and improved system performance.</li>
+                    </ul>
+                    <h3>Full-stack Developer</h3>
+                    <h4>ITC Mockexam system</h4>
+                    <ul>
+                        <li>Design database and developed RestAPI.</li>
+                        <li>Developed Fronted using NextJS.</li>
+                    </ul>
+        </div>
+        
+
+        <!--Education-->
+        <div id="Education">
+            <h2>Education</h2>
+            <h3>Bachelor of Information Teachnology</h3>
+            <p>Institute of Technology of Cambodia, 2023 - Presents</p>
+        </div>
+        
+
+        <!--Skills-->
+        <div>
+            <h2 id="skills">Skilled</h2>
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Programing Languages</th>
+                        <th>Frameworks</th>
+                        <th>Tools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JavaScript, Typescript, Java</td>
+                        <td>NextJS,Node.js,NestJS</td>
+                        <td>Git, Docker, NginX</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>PHP</td>
+                        <td>Laravel</td>
+                        <td>Vs Code, Linux experince</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
+
+        <!--Projects-->
+        <div id="project">
+            <h2>Projects</h2>
+            <h3>Mocking system</h3>
+            <p>Developed a mock exam system for ITC students to pratice for their final exams. The system is built using NextJS and NestJS.</p>
+            <h3>Porfolio Website</h3>
+            <p>Designed and developed a personal portfolio website to show case my skills and projects.</p>
+        </div>
+
+        <!--Languages-->
+        <div id="Languages">
+            <h2 >Languages</h2>
+            <ul>
+                <li>English Intermediate</li>
+                <li>Khmer: Mother tongue</li>
+            </ul>
+        </div>
+        
+
+        <!--References-->
+        <div id="reference">
+            <h2>References</h2>
+            <p>Available upon request</p>
+        </div>
+        
+
+        <!--Form-->
+        <div id="form">
+            <h2>Contact Me</h2>
+            <div>
+                <Form action="submit" method="post">
+                    <fieldset>
+                        <legend>
+                            Contact Form
+                        </legend>
+                        <label for="username" title="Please enter your user name...">Username:</label><br>
+                        <input type="text" id="username" name="username"><br><br>
+                        <label for="Email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message"></textarea><br><br>
+                        <button type="submit">send message</button>
+                    </fieldset>
+                </Form>
+            </div>            
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>&copy; 2024 Victor Khorn</p>
+</footer>
+</html>
